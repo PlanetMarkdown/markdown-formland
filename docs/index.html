@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown-Formland Live Editor</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.26.0/codemirror.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.26.0/theme/material.css'>
+
+<link rel="stylesheet" href="./editor.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.26.0/codemirror.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.26.0/mode/xml/xml.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.26.0/addon/edit/matchbrackets.js'></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="grid">
+
+  <div class="grid__row">
+
+    <div class="grid__col grid__col--4">
+<textarea class="js-input"># [Markdown-Formland](https://github.com/PlanetMarkdown/markdown-formland) Demo
+
+Markdown to create form structure.
+
+Reasoning:
+
+  + **Markdown** is a _simple_ & fast way to express markup
+  + Quick & dirty prototypes **improves client-dev communcation and costs**
+  + _Forms are essential_ to many sites & apps, but there is ~~no~~ Markdown **for forms**
+
+### Basic Usage ____
+
+( Button )
+
+[ ] Checkbox empty
+[x] Checkbox checked
+
+( ) Radio not selected
+(x) Radio selected
+
+(O_) Toggle-button
+
+Input-text [    ]
+
++----+ TextArea
+|    |
+|    |
++----+
+
+[ Select-Dropdown |V]
+
++------+ Select-Multi
+| a1 | |
+| 2b | |
+| 3c | |
++------+
+
+### END FORM ____
+
+#### Credits
+
+ + [Andrew Duckworth](https://twitter.com/AndrewDuck_) gave me the [original inspiration](https://grillopress.github.io/2019/05/04/writing-shorthand.html?utm_source=CRE+Newsletter&utm_campaign=32d8ab14cd-machine-learning_2019-10-18&utm_medium=email&utm_term=0_e9d73b2e20-32d8ab14cd-86278129), found in Conversion Rates Expert [newsletter](https://conversion-rate-experts.com/learning-zone/?utm_source=CRE+Newsletter&utm_campaign=32d8ab14cd-machine-learning_2019-10-18&utm_medium=email&utm_term=0_e9d73b2e20-32d8ab14cd-86278129)
+ + [Marco Biedermann](https://github.com/marcobiedermann) for the [Markdown editor](https://codepen.io/marcobiedermann/pen/LLGwLb) I borrowed ;)
+ + [jonschlinkert/remarkable](https://github.com/jonschlinkert/remarkable) the Markdown parser for the non-form Markdown
+ + [UnifiedJS](https://unifiedjs.com/) for the concept of more modular code
+ + [PaperCSS](https://www.getpapercss.com/) for the funky UI theme
+
+#### This Site's Code
+
+[github.com/PlanetMarkdown/markdown-formland-website](https://github.com/PlanetMarkdown/markdown-formland-website)
+ 
+##### [License](license.txt) - Various people: MIT for code, CC BY-SA 4.0 by [tomByrer](https://github.com/tomByrer) for new form markup
+</textarea>
+    </div>
+
+    <div class="grid__col grid__col--4">
+      <textarea class="js-output"></textarea>
+    </div>
+    <div class="grid__col grid__col--4">
+      <iframe class="js-preview"></iframe>
+    </div>
+
+  </div>
+
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.26.0/codemirror.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.26.0/mode/xml/xml.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.26.0/addon/edit/matchbrackets.js'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js'></script> -->
+<!-- <script type="module" src="./obs.js"></script> -->
+<script type="module" src="./obs.js"></script>
+
+<link rel="stylesheet" href="./reset.css">
+<!-- <link rel="stylesheet" href="./output-paper.css"> -->
+<link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'></link>
+<link href="https://fonts.googleapis.com/css2?family=Lakki+Reddy" rel="stylesheet"> 
+<!-- <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">  -->
+
+</body>
+</html>
