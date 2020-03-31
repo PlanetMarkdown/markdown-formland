@@ -3,7 +3,7 @@
 Markdown to create forms!
 
 ## [Visit Demo]()
-~[Markdown form demo](docs/demo-wide.png)
+![Markdown form demo](docs/demo-wide.png)
 
 
 ## Bugs
