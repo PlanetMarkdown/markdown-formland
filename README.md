@@ -6,10 +6,6 @@ Markdown to create forms!
 ![Markdown form demo](docs/demo-wide.png)
 
 
-## Bugs
-
- -  Broken on Firefox due to [brokend RegEx named groups](https://bugzilla.mozilla.org/show_bug.cgi?id=1362154) so please bug them.
-
 ## Contributing
 
 Yep, not public code for now.
